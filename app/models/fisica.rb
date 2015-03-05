@@ -1,0 +1,2 @@
+class Fisica < User
+end

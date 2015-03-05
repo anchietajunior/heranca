@@ -1,0 +1,2 @@
+module JuridicaControllerHelper
+end

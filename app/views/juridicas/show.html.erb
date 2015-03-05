@@ -1,0 +1,5 @@
+<h1><%= @user.name %></h1>
+<h1><%= @user.email %></h1>
+
+<p><%= link_to 'Editar Pessoa Juridica', edit_juridica_path(@user) %></p>
+<p><%= link_to 'Excluir Pessoa Juridica', juridica_path(@user), method: :delete, data: { confirm: "Vai excluir mesmo?"} %></p>

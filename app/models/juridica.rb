@@ -1,0 +1,2 @@
+class Juridica < User
+end

@@ -1,0 +1,18 @@
+<h1>Pessoas Juridicas</h1>
+
+<table>
+<tbody>
+	<tr>
+		<th>Nome</th>
+		<th>Email</th>
+	</tr>
+	<% @users.each do |fisica| %>	
+	<tr>
+		<td><%= link_to fisica.name, fisica %></td>
+		<td><%= link_to fisica.email, fisica %></td>
+	<% end %>
+	</tr>
+</tbody>
+</table>
+
+<%= link_to 'Criar Nova Pessoa Juridica', new_juridica_path %>
