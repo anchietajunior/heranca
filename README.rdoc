@@ -2,6 +2,11 @@
 
 This repository shows a simple STI (Single Table Inheritance) example.
 
+There is a Model User (father) and the sons Fisica (Person) and Juridica (Company),
+they create the objects separately but getting the Father Class attributes.
+
+Take a look at the Models, Controllers methods and how the Views are Working.
+
 * Ruby version : ruby 2.1.5p273
 
 * Rails version : 4.1.8
