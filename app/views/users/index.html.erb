@@ -1,0 +1,21 @@
+<h1>Pessoas Fisicas/Juridicas</h1>
+
+<p><%= link_to "Pessoas Fisicas", fisicas_path %></p>
+<p><%= link_to "Pessoas Juridicas", juridicas_path %></p>
+
+<table>
+<tbody>
+	<tr>
+		<th>Nome</th>
+		<th>Email</th>
+		<th>Tipo</th>
+	</tr>
+	<% @users.each do |p| %>	
+	<tr>
+		<td><%= p.name %></td>
+		<td><%= p.email %></td>
+		<td><%= p.type %></td>
+	<% end %>
+	</tr>
+</tbody>
+</table>
